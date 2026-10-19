@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.itsrealperson.tacticalworkbench.fabric",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "client.mixin.CameraMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

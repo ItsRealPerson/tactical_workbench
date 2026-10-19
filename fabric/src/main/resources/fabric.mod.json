@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "tactical_workbench",
+  "version": "${version}",
+  "name": "Tactical Workbench",
+  "description": "Diegetic tactical weapon workbench replica for Minecraft.",
+  "authors": [
+    "itsrealperson"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/tactical_workbench/textures/item/tactical_rifle.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.itsrealperson.tacticalworkbench.fabric.TacticalWorkbenchFabric"
+    ],
+    "client": [
+      "dev.itsrealperson.tacticalworkbench.fabric.client.TacticalWorkbenchFabricClient"
+    ]
+  },
+  "mixins": [
+    "tactical_workbench-common.mixins.json",
+    "tactical_workbench-fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "architectury": "*"
+  }
+}

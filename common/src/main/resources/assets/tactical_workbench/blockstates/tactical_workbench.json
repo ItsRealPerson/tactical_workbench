@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tactical_workbench:block/tactical_workbench"
+    },
+    "facing=south": {
+      "model": "tactical_workbench:block/tactical_workbench",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tactical_workbench:block/tactical_workbench",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "tactical_workbench:block/tactical_workbench",
+      "y": 90
+    }
+  }
+}

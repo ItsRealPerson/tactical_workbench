@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="tactical_workbench"
+version="${version}"
+displayName="Tactical Workbench"
+description="Diegetic tactical weapon workbench replica for Minecraft."
+authors="itsrealperson"
+
+[[dependencies.tactical_workbench]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tactical_workbench]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tactical_workbench]]
+modId="architectury"
+mandatory=true
+versionRange="[9.2.14,)"
+ordering="AFTER"
+side="BOTH"

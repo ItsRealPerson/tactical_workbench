@@ -16,3 +16,26 @@ Todas las modificaciones notables del proyecto se documentan en este archivo de 
   - Foley sonoro completo en `ModSounds`: `seat_sit`, `seat_stand`, `attach_equip`, `attach_remove`, `bolt_cycle`, `screw_turn`, `oil_wipe`.
   - Pantalla diegética inicial `WorkbenchScreen` y aislador de cliente `TacticalWorkbenchClientHelper`.
   - Archivos de internacionalización en inglés (`en_us.json`) y español (`es_es.json`).
+
+## [v0.1.1-alpha] - 2026-10-19
+### Añadido
+- **Controlador de Cámara Cinemática Diegética (`DiegeticCameraController`)**:
+  - Estado cinemático con interpolación cúbica `easeInOutCubic` de 0.0 a 1.0 al entrar y salir del workbench.
+  - Cámara sobre el hombro enfocada en el tapete de trabajo con pitch ~38° y yaw anclado al `FACING` del bloque.
+  - Parallax de cabeza dinámico por ratón con restricción de cono elástica `[-14.0°, 14.0°]` y recuperación elástica suave.
+  - Mixin invoker `CameraAccessor` para invocación segura de `setPosition` y `setRotation`.
+- **Pantalla Táctica Diegética Interactiva (`WorkbenchScreen`)**:
+  - `renderBackground` transparente para vista limpia y sin oscurecimiento del mundo 3D circundante.
+  - Marco reticular táctico con esquinas reforzadas y estilos de interfaz militar.
+  - 4 cajas de ranuras interactivas (`SLOT_PRIMARY`, `SLOT_OPTIC`, `SLOT_BARREL`, `SLOT_UNDERBARREL`) con soporte para equipar/desequipar con clic del ratón y tooltips informativos.
+  - Barra de condición y limpieza del arma en tiempo real con transiciones de color dinámicas (verde > 70%, amarillo > 30%, rojo <= 30%) y monitor de desgaste.
+  - Botones tácticos foley: "Ciclar Cerrojo" (partículas y sonido mecánico), "Limpiar y Aceitar" (aumenta condición con sonido y partículas) y "Ajustar Tornillos" (reduce desgaste con sonido).
+- **Renderizado Físico 3D en Mesa (`TacticalWorkbenchRenderer`)**:
+  - `BlockEntityRenderer<TacticalWorkbenchBlockEntity>` que posiciona el arma horizontalmente en el centro del tapete.
+  - Renderizado socketizado de accesorios montados (mira réflex en el riel superior, silenciador en la boca de fuego y empuñadura en el riel inferior).
+  - Rotación física precisa sincronizada con la orientación horizontal (`FACING`) del bloque.
+- **Integración y Mixins Multi-Plataforma**:
+  - `CameraMixin` en Fabric inyectando en `Camera.setup(..., @At("TAIL"))` para transformar la cámara suavemente.
+  - `ForgeClientEvents` suscrito a `ViewportEvent.ComputeCameraAngles` para sincronizar ángulos en Forge.
+  - Inicializadores de cliente `TacticalWorkbenchFabricClient` y registro `EntityRenderersEvent.RegisterRenderers` en Forge.
+

@@ -1,0 +1,97 @@
+{
+  "seat_sit": {
+    "subtitle": "subtitles.tactical_workbench.seat_sit",
+    "sounds": [
+      {
+        "name": "minecraft:item/armor/equip_leather",
+        "pitch": 0.85,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:block/wood/step",
+        "pitch": 0.75,
+        "volume": 0.5
+      }
+    ]
+  },
+  "seat_stand": {
+    "subtitle": "subtitles.tactical_workbench.seat_stand",
+    "sounds": [
+      {
+        "name": "minecraft:item/armor/equip_leather",
+        "pitch": 1.05,
+        "volume": 0.8
+      }
+    ]
+  },
+  "attach_equip": {
+    "subtitle": "subtitles.tactical_workbench.attach_equip",
+    "sounds": [
+      {
+        "name": "minecraft:block/iron_trapdoor/open",
+        "pitch": 1.7,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:block/stone_button/click_on",
+        "pitch": 1.4,
+        "volume": 0.6
+      }
+    ]
+  },
+  "attach_remove": {
+    "subtitle": "subtitles.tactical_workbench.attach_remove",
+    "sounds": [
+      {
+        "name": "minecraft:block/iron_trapdoor/close",
+        "pitch": 1.5,
+        "volume": 0.6
+      }
+    ]
+  },
+  "bolt_cycle": {
+    "subtitle": "subtitles.tactical_workbench.bolt_cycle",
+    "sounds": [
+      {
+        "name": "minecraft:item/crossbow/quick_charge_1",
+        "pitch": 1.6,
+        "volume": 0.85
+      },
+      {
+        "name": "minecraft:block/lever/click",
+        "pitch": 0.8,
+        "volume": 0.7
+      }
+    ]
+  },
+  "screw_turn": {
+    "subtitle": "subtitles.tactical_workbench.screw_turn",
+    "sounds": [
+      {
+        "name": "minecraft:block/grindstone/use",
+        "pitch": 1.8,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:block/iron_door/close",
+        "pitch": 2.0,
+        "volume": 0.3
+      }
+    ]
+  },
+  "oil_wipe": {
+    "subtitle": "subtitles.tactical_workbench.oil_wipe",
+    "sounds": [
+      {
+        "name": "minecraft:item/honeycomb/wax_on",
+        "pitch": 0.9,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:block/sponge/absorb",
+        "pitch": 1.8,
+        "volume": 0.4
+      }
+    ]
+  }
+}

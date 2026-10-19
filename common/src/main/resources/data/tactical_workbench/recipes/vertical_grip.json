@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    " C ",
+    " C "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "C": {
+      "item": "minecraft:coal"
+    }
+  },
+  "result": {
+    "item": "tactical_workbench:vertical_grip",
+    "count": 1
+  }
+}

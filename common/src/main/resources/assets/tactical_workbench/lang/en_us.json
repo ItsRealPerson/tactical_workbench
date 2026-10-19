@@ -1,0 +1,31 @@
+{
+  "block.tactical_workbench.tactical_workbench": "Tactical Workbench",
+  "item.tactical_workbench.tactical_workbench": "Tactical Workbench",
+  "item.tactical_workbench.tactical_rifle": "Tactical Rifle",
+  "item.tactical_workbench.reflex_sight": "Reflex Sight",
+  "item.tactical_workbench.suppressor": "Tactical Suppressor",
+  "item.tactical_workbench.vertical_grip": "Vertical Foregrip",
+  "item.tactical_workbench.gun_oil": "Synthetic Gun Oil",
+
+  "screen.tactical_workbench.title": "Tactical Workbench",
+  "tooltip.tactical_workbench.slot_type": "Slot Type",
+  "slot.tactical_workbench.optic": "Optic",
+  "slot.tactical_workbench.barrel": "Barrel",
+  "slot.tactical_workbench.underbarrel": "Underbarrel",
+
+  "tooltip.tactical_workbench.tactical_rifle.desc": "Modular tactical assault rifle platform.",
+  "tooltip.tactical_workbench.tactical_rifle.mod_hint": "Compatible with attachments at the Tactical Workbench.",
+  "tooltip.tactical_workbench.reflex_sight.desc": "Compact reflex sight for rapid close-quarters acquisition.",
+  "tooltip.tactical_workbench.suppressor.desc": "Tactical suppressor dampening muzzle blast and acoustic signature.",
+  "tooltip.tactical_workbench.vertical_grip.desc": "Ergonomic foregrip improving vertical recoil stability.",
+  "tooltip.tactical_workbench.gun_oil.desc": "High-grade synthetic weapon lubricant.",
+  "tooltip.tactical_workbench.gun_oil.effect": "Restores weapon cleanliness and prevents mechanical wear.",
+
+  "subtitles.tactical_workbench.seat_sit": "Player sits at tactical workbench",
+  "subtitles.tactical_workbench.seat_stand": "Player stands up from workbench",
+  "subtitles.tactical_workbench.attach_equip": "Tactical attachment equipped",
+  "subtitles.tactical_workbench.attach_remove": "Tactical attachment removed",
+  "subtitles.tactical_workbench.bolt_cycle": "Weapon bolt cycled",
+  "subtitles.tactical_workbench.screw_turn": "Screw tightened",
+  "subtitles.tactical_workbench.oil_wipe": "Weapon oiled and wiped"
+}

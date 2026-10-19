@@ -44,6 +44,7 @@ Antes de escribir código, determina el tipo de proyecto y versión leyendo ÚNI
 
 ## 7. Memoria de Bugs Resueltos (Auto-Actualizable)
 - Cuando resuelvas un bug no trivial (Mixins, concurrencia en Folia, versión de Data Components o shaders), añade una línea concisa al final de este archivo con la causa y la solución para no re-investigarlo en futuras sesiones.
+- **Architectury Loom Forge Platform Error (`Loom is not running on Forge`):** El subproyecto `forge/` requiere `loom.platform=forge` en `forge/gradle.properties` y el bloque `architectury { platformSetupLoomIde(); forge() }` posicionado antes de `loom { forge { ... } }`.
 
 ## 8. Ciclo de Ejecución 100% Autónoma y Escalamiento Automático (Cero Pausas)
 - **Ejecución Continua:** Todo el ciclo (Paso 0: Bootstrap -> Paso 1: Detección y Plan en `docs/planes/plan_vX.md` -> Paso 2: Escritura directa a disco de código/assets/scripts Python -> Paso 3: Compilación rápida única -> Paso 4: Registro de bugs en § 7 y `docs/CHANGELOG.md`) debe ejecutarse de corrido en una sola pasada continua (modo Turbo) sin frenos manuales ni solicitar cambios de modelo al usuario.

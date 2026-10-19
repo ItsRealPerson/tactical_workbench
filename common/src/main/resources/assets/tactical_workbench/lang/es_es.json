@@ -1,0 +1,31 @@
+{
+  "block.tactical_workbench.tactical_workbench": "Banco de Trabajo Táctico",
+  "item.tactical_workbench.tactical_workbench": "Banco de Trabajo Táctico",
+  "item.tactical_workbench.tactical_rifle": "Fusil Táctico",
+  "item.tactical_workbench.reflex_sight": "Mira Réflex",
+  "item.tactical_workbench.suppressor": "Silenciador Táctico",
+  "item.tactical_workbench.vertical_grip": "Empuñadura Vertical",
+  "item.tactical_workbench.gun_oil": "Aceite Sintético para Armas",
+
+  "screen.tactical_workbench.title": "Banco de Trabajo Táctico",
+  "tooltip.tactical_workbench.slot_type": "Ranura",
+  "slot.tactical_workbench.optic": "Óptica",
+  "slot.tactical_workbench.barrel": "Cañón",
+  "slot.tactical_workbench.underbarrel": "Bajo cañón",
+
+  "tooltip.tactical_workbench.tactical_rifle.desc": "Fusil de asalto modular de plataforma táctica.",
+  "tooltip.tactical_workbench.tactical_rifle.mod_hint": "Compatible con accesorios en el Banco de Trabajo Táctico.",
+  "tooltip.tactical_workbench.reflex_sight.desc": "Mira réflex compacta para adquisición rápida de objetivos.",
+  "tooltip.tactical_workbench.suppressor.desc": "Silenciador táctico que reduce la firma acústica y el fogonazo.",
+  "tooltip.tactical_workbench.vertical_grip.desc": "Empuñadura ergonómica que incrementa la estabilidad de retroceso.",
+  "tooltip.tactical_workbench.gun_oil.desc": "Lubricante sintético de alto grado para armamento.",
+  "tooltip.tactical_workbench.gun_oil.effect": "Restaura la limpieza del arma y reduce el desgaste mecánico.",
+
+  "subtitles.tactical_workbench.seat_sit": "Jugador se sienta en el banco",
+  "subtitles.tactical_workbench.seat_stand": "Jugador se levanta del banco",
+  "subtitles.tactical_workbench.attach_equip": "Accesorio táctico acoplado",
+  "subtitles.tactical_workbench.attach_remove": "Accesorio táctico desacoplado",
+  "subtitles.tactical_workbench.bolt_cycle": "Cerrojo amartillado",
+  "subtitles.tactical_workbench.screw_turn": "Tornillo ajustado",
+  "subtitles.tactical_workbench.oil_wipe": "Arma aceitada y limpiada"
+}

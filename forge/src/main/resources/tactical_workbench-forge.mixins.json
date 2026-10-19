@@ -1,7 +1,7 @@
 {
   "required": false,
   "minVersion": "0.8",
-  "package": "dev.itsrealperson.tacticalworkbench.forge",
+  "package": "dev.itsrealperson.tacticalworkbench.forge.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [],
   "injectors": {

@@ -39,3 +39,12 @@ Todas las modificaciones notables del proyecto se documentan en este archivo de 
   - `ForgeClientEvents` suscrito a `ViewportEvent.ComputeCameraAngles` para sincronizar ángulos en Forge.
   - Inicializadores de cliente `TacticalWorkbenchFabricClient` y registro `EntityRenderersEvent.RegisterRenderers` en Forge.
 
+## [v0.1.2-alpha] - 2026-10-19
+### Corregido
+- **Aislamiento estricto de paquetes Mixin**:
+  - Reubicado `CameraAccessor` al subpaquete `dev.itsrealperson.tacticalworkbench.mixin`.
+  - Configurado `tactical_workbench-common.mixins.json` con `"package": "dev.itsrealperson.tacticalworkbench.mixin"`.
+  - Configurado `tactical_workbench-fabric.mixins.json` con `"package": "dev.itsrealperson.tacticalworkbench.fabric.client.mixin"`.
+  - Configurado `tactical_workbench-forge.mixins.json` con `"package": "dev.itsrealperson.tacticalworkbench.forge.mixin"`.
+  - Solucionado el error fatal `IllegalClassLoadError` en Fabric Loader 0.20.0 que impedía arrancar el mod por colisión de paquetes de mixin con el `ModInitializer`.
+

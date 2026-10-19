@@ -1,5 +1,6 @@
 package dev.itsrealperson.tacticalworkbench.client.camera;
 
+import dev.itsrealperson.tacticalworkbench.mixin.CameraAccessor;
 import net.minecraft.client.Camera;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.BlockPos;

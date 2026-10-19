@@ -1,4 +1,4 @@
-package dev.itsrealperson.tacticalworkbench.client.camera;
+package dev.itsrealperson.tacticalworkbench.mixin;
 
 import net.minecraft.client.Camera;
 import net.minecraft.world.phys.Vec3;

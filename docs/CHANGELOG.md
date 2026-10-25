@@ -48,3 +48,8 @@ Todas las modificaciones notables del proyecto se documentan en este archivo de 
   - Configurado `tactical_workbench-forge.mixins.json` con `"package": "dev.itsrealperson.tacticalworkbench.forge.mixin"`.
   - Solucionado el error fatal `IllegalClassLoadError` en Fabric Loader 0.20.0 que impedía arrancar el mod por colisión de paquetes de mixin con el `ModInitializer`.
 
+## [v0.1.3-alpha] - 2026-10-25
+### Añadido
+- **Análisis Exhaustivo del Video de Referencia**:
+  - Creado [`docs/analisis/analisis_video_rot_n_remnants_workbench.md`](file:///C:/Users/Pers0n/.gemini/antigravity/scratch/tactical_workbench/docs/analisis/analisis_video_rot_n_remnants_workbench.md) con el desglose cronológico segundo a segundo (00:00 a 02:44), análisis de diégesis, arquitectura de UI/UX, visor 3D orbital (`[F]`), props del bloque, sistema de lotes dinámicos (*batch crafting*) y paisaje sonoro/foley de *Rot n' Remnants: Workbench Preview* (Grimm).
+
